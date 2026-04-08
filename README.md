@@ -1,7 +1,7 @@
-Steps to run (Make sure you have NodeJS already installed)
-cd <foldername>
-npm run dev
+# Steps to run
 
+> cd folderName
+> npm run dev
 
 # Wall Calendar — Interactive React Component
 
