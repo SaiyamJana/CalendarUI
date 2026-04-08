@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  -webkit-font-smoothing: antialiased;
+  background: #e7e5e0;
+}
+
+textarea::placeholder {
+  opacity: 0.5;
+}
+
+textarea {
+  caret-color: currentColor;
+}
+
+/* Flip animation perspective */
+.calendar-container {
+  perspective: 1000px;
+}
+
+/* Smooth scrolling */
+* {
+  scroll-behavior: smooth;
+}
+
+/* Hide scrollbar for textarea */
+textarea::-webkit-scrollbar {
+  width: 3px;
+}
+textarea::-webkit-scrollbar-track {
+  background: transparent;
+}
+textarea::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 10px;
+}
